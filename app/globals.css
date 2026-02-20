@@ -365,6 +365,12 @@ h1, h2, h3, h4, h5, h6 {
   100% { transform: translateX(-50%); }
 }
 
+/* ── Scroll Dot ────────────────────────────────────────────────────────────── */
+@keyframes scrollDot {
+  0%, 100% { transform: translateY(0); opacity: 1; }
+  50% { transform: translateY(8px); opacity: 0.3; }
+}
+
 /* ── Cursor Glow ───────────────────────────────────────────────────────────── */
 #cursor-glow {
   pointer-events: none;

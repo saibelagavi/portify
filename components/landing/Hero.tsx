@@ -179,12 +179,6 @@ export function Hero() {
         </div>
       </div>
 
-      <style jsx>{`
-        @keyframes scrollDot {
-          0%, 100% { transform: translateY(0); opacity: 1; }
-          50% { transform: translateY(8px); opacity: 0.3; }
-        }
-      `}</style>
     </section>
   )
 }
